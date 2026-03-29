@@ -5,7 +5,7 @@ deprecation==2.1.0
 img2pdf==0.6.3
 lxml==6.0.2
 packaging==26.0
-pdf2image==1.16.3
+pdf2image==1.17.0
 pefile==2024.8.26
 pikepdf==10.5.1
 pillow==12.1.1
