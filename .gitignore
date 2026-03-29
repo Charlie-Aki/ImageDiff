@@ -3,7 +3,6 @@
 *__pycache__/
 *dist/
 *build/
-*Sample/
 *.tmp
 *.DS_Store
 *.python-version
@@ -15,3 +14,4 @@
 *.spec
 *poppler*/
 *.iss
+*.zip
