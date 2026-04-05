@@ -3,6 +3,8 @@
 - ImageDiff(イメージ・デフ)はTIFFおよびPDFの画像データの差分を表示するアプリケーションです。
 - ImageDiff is an application to display the differences of multiple image files of either TIFF or PDF.
 
+[Sample PDF](./Sample/Output_Sample_001a.pdf)
+
 ## Remark
 
 - This application works only in 64 bit Windows.
