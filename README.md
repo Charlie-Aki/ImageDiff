@@ -4,8 +4,8 @@
   <img src="./imgs/Logo_256x256.ico" width="200">
 </p>
 
-- ImageDiff(イメージ・デフ)はTIFFおよびPDFの画像データの差分を表示するアプリケーションです。
 - ImageDiff is an application to display the differences of multiple image files of either TIFF or PDF.
+- ImageDiff(イメージ・デフ)はTIFFおよびPDFの画像データの差分を表示するアプリケーションです。
 
 [Sample PDF](./Sample/Output_Sample_001a.pdf)
 
@@ -61,3 +61,11 @@
 ## License
 
 - ImageDiff is licensed under [GPLv3](./LICENSE) because the execution file is packed with [Poppler](https://github.com/oschwartz10612/poppler-windows).
+
+## 📦 製品版のダウンロード/Full Version Available
+
+- ImageDiff の完成版は BOOTH にて販売しています。
+- The complete version of ImageDiff is distributed on BOOTH.  
+If you would like to use the fully featured release, please visit the link below:
+
+👉 [BOOTH の販売ページはこちら](https://serendea.booth.pm/items/8165773)
