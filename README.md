@@ -1,5 +1,9 @@
 # ImageDiff
 
+<p align="center">
+  <img src="./imgs/Logo_256x256.ico" width="200">
+</p>
+
 - ImageDiff(イメージ・デフ)はTIFFおよびPDFの画像データの差分を表示するアプリケーションです。
 - ImageDiff is an application to display the differences of multiple image files of either TIFF or PDF.
 
