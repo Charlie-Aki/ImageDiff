@@ -1,6 +1,6 @@
 # ImageDiff
 
-ImageDiffはTIFFおよびPDFの画像データの差分を表示するアプリケーションです。
+ImageDiff(イメージ・デフ)はTIFFおよびPDFの画像データの差分を表示するアプリケーションです。
 ImageDiff is an application to display the differences of multiple image files of either TIFF or PDF.
 
 ## 注意点/Remark
@@ -44,12 +44,16 @@ The following lines shall be changed in pdf2image.py so that the console error w
    # 以下のラインを/Replace
    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
    # 以下にように差し替える/with the followings.
-   startupinfo = None
-   if platform.system() == "Windows":
-      # this startupinfo structure prevents a console window from popping up on Windows
-      startupinfo = subprocess.STARTUPINFO()
-      startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
-   proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE, startupinfo=startupinfo)
+   ```
+
+   ```diff
+   - proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+   + startupinfo = None
+   + if platform.system() == "Windows":
+   +    # this startupinfo structure prevents a console window from popping up on Windows
+   +    startupinfo = subprocess.STARTUPINFO()
+   +    startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+   + proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE, startupinfo=startupinfo)
    ```
 
 ## ライセンス/License
