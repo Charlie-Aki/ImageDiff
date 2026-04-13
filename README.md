@@ -69,3 +69,4 @@
 If you would like to use the fully featured release, please visit the link below:
 
 👉 [BOOTH の販売ページはこちら](https://serendea.booth.pm/items/8165773)
+👉 [Gumroad の販売ページはこちら](https://serendea.gumroad.com/l/ImageDiff)
